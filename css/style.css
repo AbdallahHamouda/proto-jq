@@ -54,6 +54,10 @@
     height: 40px;
     margin: 0.3%;
 }
+.sxxx{
+    margin-bottom:0%;
+    padding-bottom:0.5%;
+}
 @media only screen and (max-width: 600px) {
     .s{
         height:50%;
