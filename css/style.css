@@ -1,0 +1,115 @@
+*{font-family: 'Epilogue', sans-serif;}
+#text{
+    margin-left: 2%;
+}
+.fo{
+    font-family: 'Roboto', sans-serif;
+}
+.s{
+    height:30%;
+    width: 30%;
+}
+.m{
+    margin-top: 17%;
+}
+.Firstbtn , .Secondbtn{
+    height: 10%;
+    width: 7%;
+    top: 100%;
+    border-radius: 20px;
+}
+#first_img , #second_img{
+    cursor: pointer;
+}
+#desk{
+    width: 40%;
+    height: 70%;
+    margin-left: 3%;
+    margin-top: 0.8%;
+}
+
+.szxs .my_text{
+    position: relative;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 45%;
+    width: 30%;
+    font-size: 24px;
+}
+.szxs a{
+    margin-left: 46%;
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: bolder;
+}
+.szxs{
+    padding-bottom: 4%;
+}
+.con{
+    width: 50%;
+    margin-left: 27%;
+}
+.ico a img{
+    width: 40px;
+    height: 40px;
+    margin: 0.3%;
+}
+@media only screen and (max-width: 600px) {
+    .s{
+        height:50%;
+    width: 100%;
+    margin-top: 100%;
+    }
+    .m{
+        margin-top: 30%;
+    }
+    .Firstbtn , .Secondbtn{
+        top: 140%
+    }
+    .szxs #desk{
+        width: 90%;
+        height: 55%
+    }
+    .szxs .my_text{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 110%;
+        font-size: 20px;
+        width: 90%;
+    }
+    .sxzs{
+        padding-bottom: 0;
+        padding-right: 100%;
+    }
+    .con{
+        margin-left: 4%;
+        width: 90%;
+    } 
+  
+}
+@media only screen and (min-height: 800px) {
+    .Firstbtn , .Secondbtn{
+        top: 120%
+    }
+    .m{
+        margin-top: 40%;
+    }
+    #desk{
+        height: 40%;
+    }
+    .szxs .my_text{
+        margin-top:130%
+    }
+}
+@media only screen and (max-width: 290px) {
+     .Firstbtn , .Secondbtn{
+        top: 105%
+    }
+}
+@media only screen and (width: 540px) {
+    .Firstbtn , .Secondbtn{
+        top: 50%
+    }
+}
+
+
