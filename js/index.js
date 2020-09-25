@@ -1,5 +1,5 @@
 
-$(".subs").click(function(e){
+$(".msg").keyup(function(e){
     e.preventDefault();
     var name = $("#nameofcon").val();
 var email= $(".email").val();
@@ -11,10 +11,8 @@ var msg = $(".msg").val();
       }else {
         $(".verify").removeClass("hides")
         $(".notverify").addClass("hides")
-        axios.post('http://localhost:1337/Contacts',
-        {name:name,email:email,msg:msg}).then(response => {
-        console.log(response.status);
+
         console.log("success");
-      });
       }
+      
   });
