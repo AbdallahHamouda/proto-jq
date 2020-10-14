@@ -72,6 +72,7 @@
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active"  data-interval="10000">
@@ -81,8 +82,16 @@
             <p>Using Vuex || Vue-Router || Vue-Meta</p>
           </div>
         </div>
+        
+        <div class="carousel-item"  data-interval="10000">
+          <img src="assests/Capture.JPG" class="d-block w-100 " style="height: 550px;" alt="My project" id="third_img" data-toggle="tooltip" data-placement="top" title="Click To Open The Website">
+          <div class="carousel-caption d-none d-md-block xzs">
+            <h5 class="bg-white text-dark">Stalea</h5>
+            <p class="bg-white text-dark">Using Vuex || Vue-Router || Vue-Meta ||bootstrap</p>
+          </div>
+        </div>
         <div class="carousel-item">
-          <img src="assests/trakoo-min.jpg" class="d-block w-100" alt="project weight tracker" id="second_img" data-toggle="tooltip" data-placement="top" title="Click To Open The Website">
+          <img src="assests/trakoo-min.jpg" class="d-block w-100 " alt="project weight tracker" id="second_img" data-toggle="tooltip" data-placement="top" title="Click To Open The Website">
           <div class="carousel-caption d-none d-md-block text-dark xzs">
             <h5 class=" bg-white">Weight Tracking App and Calorie calculator</h5>
             <p class=" bg-white"><b>Using Chart js and basic Html Css Js</b></p>
@@ -183,6 +192,9 @@ $("#first_img").click(function(){
 })
   $("#second_img").click(function(){
     window.open("https://trakooo.netlify.app/index.html")
+})
+  $("#third_img").click(function(){
+    window.open("https://staleafe.netlify.app/#")
 })
     if(window.innerWidth <300){
         $(".sss").removeClass( "ml-4" )
